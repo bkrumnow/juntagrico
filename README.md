@@ -3,6 +3,11 @@ Juntagrico Heroku Template for cookiecutter
 
 This template sets up a project to be used with juntagrico.science as hosting.
 
+# Changing django templates
+
+* Point django loader to template directory in `settings.py`: `'DIRS': [os.path.join(BASE_DIR, 'templates')],`
+* Example changes in home.html and snippets
+
 # Setting up locally to test setup
 
 On any environment install Python 3, and add it to your path
